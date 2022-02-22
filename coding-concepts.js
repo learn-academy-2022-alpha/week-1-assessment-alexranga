@@ -59,7 +59,7 @@
 // console.log(dataTypes.length)
 
 // a) Your answer: number
-// b) Verify and explain: dataTypes.length will result to 3. The "typeof" evaluates dataTypoes.length which is 3 as a number.
+// b) Verify and explain: dataTypes.length will result to 3. The "typeof" evaluates dataTypes.length which is 3 as a number.
 
 // console.log(dataTypes.length)
 // console.log(typeof(3))

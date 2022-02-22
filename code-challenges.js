@@ -17,37 +17,37 @@ const fruit4 = "kiwi"
 
 // --------------------1) Create a function that takes in any given number and determines if the number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below. Expected output: "42 is below boiling point", "350 is above boiling point", "212 is at boiling point"
 
-// declare const as variable and call it temperatureInFahrenheit
+// declare variable const and call it temperatureInFahrenheit
 // temperatureInFahrenheit will take any number 
 // use a conditional statement that determines if the number is below boiling point, at boiling point, or above boiling point.
-// the conditional statement is set that below boiling point is less than 212; boiling point is at exactly 212; above boiling point is anything greater than 212.
-// else is set to run for a string input
+// the conditional statement is set so that below boiling point is less than 212; boiling point is at exactly 212; above boiling point is anything greater than 212.
+// else is set to run for any string input
 // use test variables provided
 
- const temp1 = 42
- const temp2 = 350
- const temp3 = 212
+//  const temp1 = 42
+//  const temp2 = 350
+//  const temp3 = 212
 
- const temperatureInFahrenheit = (temperature) => {
-    if (temperature === 212){
-         return`${temperature} is at boiling point`
-} else if (temperature > 212){
-return `${temperature} is above boiling point`
-} else if (temperature < 212) {
-return `${temperature} is below boiling point`
-} else {
-return "enter a number"
-}
-}
-console.log(temperatureInFahrenheit(212))
+//  const temperatureInFahrenheit = (temperature) => {
+//     if (temperature === 212){
+//          return`${temperature} is at boiling point`
+// } else if (temperature > 212){
+// return `${temperature} is above boiling point`
+// } else if (temperature < 212) {
+// return `${temperature} is below boiling point`
+// } else {
+// return "enter a number"
+// }
+// }
+// console.log(temperatureInFahrenheit(212))
 
 
 
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the variables provided below. Expected output: 10
 
-// create a new variable declaration combinedNumbers and use a built in method .concat to combine myNumbers1 and myNumbers2.
-// use built-in method .length to get the full length of the newly assigned variable combinedNumbers containing the combination of myNumbers1 and myNumbers2.
+// create a new variable declaration combinedNumbers and use built in method .concat to combine myNumbers1 and myNumbers2.
+// use built-in method .length to get the full length of the newly assigned variable combinedNumbers containing the combination of myNumbers1 and myNumbers2 resulting to an output of 10 when console logged.
 
 const myNumbers1 = [3, 7, 0, 36, -9]
 const myNumbers2 = [8, -7, 42, 9, 13]
@@ -61,7 +61,7 @@ const combinedNumbers = myNumbers1.concat(myNumbers2)
 
 // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below. Expected output: "1202 ohcE"
 
-// to come up with the expected output of "1201 ohcE", change "Alpha 2022" to "Echo 2021" - typo error
+// to come up with the expected output of "1201 ohcE", change "Alpha 2022" to "Echo 2021" - typo error correction
 // create a function to transform string into an array using .split to split the string "Echo 2021" into an array of letters
 // call built-in array method .reverse to reverse the order of the items in the array
 // join reveresed items in the array using .join to convert array into string
@@ -79,7 +79,7 @@ const combinedNumbers = myNumbers1.concat(myNumbers2)
 // use for loop to define where the count(index) starts; let i=0
 // define how many iterations the loop will go through; i < myArray.length
 // increment variable on each iteration
-// if statement is true using mod % operator resulting in 0 then return string 'even'
+// if statement is true using mod % operator resulting in 0, then return string 'even'
 // if result of mod % 2 is not 0, return 'odd'.
 
 // const myArray = [13, 34, 5, 10, 27, 42]
